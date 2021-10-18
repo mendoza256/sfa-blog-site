@@ -9,11 +9,15 @@
 </head>
 <body>
 
-    {% include 'header.njk' %}}
-    <main>
-        {{ content | safe }}
-    </main>
-    {% include 'footer.njk' %}
+    <div class="flex-wrapper">
+
+        {% include 'header.njk' %}}
+        <main>
+            {{ content | safe }}
+        </main>
+        {% include 'footer.njk' %}
+
+    </div>
 
 </body>
 </html>
