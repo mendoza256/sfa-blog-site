@@ -394,3 +394,39 @@ section,
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
 }
+
+
+/* //////////////////////
+  About page
+/////////////////////// */
+
+
+@media only screen and (min-width: 901px) {
+
+  .about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 4rem;
+  }
+
+  .grid-item {
+    align-self: center;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #second-image {
+    display: none;
+  }
+
+  .about-image {
+    padding: 3rem 0;
+  }
+}
