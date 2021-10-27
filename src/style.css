@@ -408,6 +408,10 @@ section,
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     column-gap: 4rem;
+    row-gap: 3rem;
+    line-height: 1.8rem;
+    text-align: justify;
+    margin-bottom: 4rem
   }
 
   .grid-item {
@@ -420,9 +424,10 @@ section,
   .about-wrapper {
     display: flex;
     flex-direction: column;
+    margin-bottom: 4rem;
   }
 
-  #second-image {
+  .option-img {
     display: none;
   }
 
