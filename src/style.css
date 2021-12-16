@@ -407,8 +407,8 @@ section,
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    column-gap: 4rem;
-    row-gap: 3rem;
+    column-gap: 3rem;
+    row-gap: 1rem;
     line-height: 1.8rem;
     text-align: justify;
     margin-bottom: 4rem
