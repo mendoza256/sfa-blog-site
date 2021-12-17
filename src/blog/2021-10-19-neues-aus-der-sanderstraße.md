@@ -1,11 +1,11 @@
 ---
-title: Neues aus der Sanderstraße
-description: Update
+title: Willkommen auf unserem Blog
+description: Hier findet ihr Neuigkeiten zur IG Sanderstraße
 author: Christian
 date: 2021-10-19T09:50:42.186Z
 tags:
   - post
-image: /assets/blog/samuel-ferrara-1527pjeb6jg-unsplash.jpg
-imageAlt: Berge
+image: /assets/blog/daniel-sessler-6kmib4gzo6u-unsplash.jpg
+imageAlt: "Foto: Unsplash / Daniel Sessler"
 ---
-Mein neuer Post
+Hier findet ihr in Zukunft News zur IG Sanderstraße.
