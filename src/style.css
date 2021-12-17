@@ -191,6 +191,10 @@ section,
   font-size: var(--fs-600);
 }
 
+.anrede {
+  font-size: 1.2rem;
+}
+
 
 /* //////////////////////
   Header
