@@ -263,6 +263,16 @@ section,
   }
 }
 
+.supporters-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 0.5rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  margin-top: 2rem;
+}
+
 .featured-articles {
   background-color: var(--clr-primary-200);
 }
