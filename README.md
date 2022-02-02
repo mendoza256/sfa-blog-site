@@ -1,8 +1,7 @@
 Used this template to make a blog for a friend with a non-Wordpress CMS.
 
-## Live site
+## [Live site](sanderstrasse.netlify.app)
 
-stoic-lamport-62c43e.netlify.app/
 
 ## Tutorial
 
