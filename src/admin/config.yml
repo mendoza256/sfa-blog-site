@@ -20,13 +20,12 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "unterstuezende"
-    label: "Unterstützende"
-    folder: "src/unterstuetzende"
+  - name: "supporters"
+    label: "Supporters"
+    folder: "src/supporters"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Supporter", name: "supporter", widget: "list", default: ["unterstuezende"] }

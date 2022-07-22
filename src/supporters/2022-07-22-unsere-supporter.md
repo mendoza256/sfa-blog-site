@@ -1,5 +1,6 @@
 ---
 title: Unsere Supporter
+description: Bisher werden wir untersützt von
 date: 2022-07-22T10:40:38.985Z
 ---
 

@@ -299,7 +299,7 @@ section,
   }
 }
 
-.supporters-wrapper {
+.supporters-list {
   display: grid;
   place-content: center;
   line-height: 1.5rem;
