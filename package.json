@@ -20,5 +20,8 @@
   "homepage": "https://github.com/mendoza256/sfa-blog-site#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
   }
 }
