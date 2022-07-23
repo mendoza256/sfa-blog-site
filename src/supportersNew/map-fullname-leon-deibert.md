@@ -1,3 +1,0 @@
----
-fullName: Leon Deibert
----

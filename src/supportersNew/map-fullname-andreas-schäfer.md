@@ -1,3 +1,0 @@
----
-fullName: Andreas Schäfer
----

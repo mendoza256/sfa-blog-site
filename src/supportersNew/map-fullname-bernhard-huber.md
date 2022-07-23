@@ -1,3 +1,0 @@
----
-fullName: Bernhard Huber
----

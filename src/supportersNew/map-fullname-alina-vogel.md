@@ -1,3 +1,0 @@
----
-fullName: Alina Vogel
----

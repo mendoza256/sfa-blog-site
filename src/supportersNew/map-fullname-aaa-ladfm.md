@@ -1,3 +1,0 @@
----
-fullName: AAA ladfm
----
