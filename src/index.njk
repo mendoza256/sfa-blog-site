@@ -37,8 +37,8 @@ layout: 'base.njk'
       <h1 class="text-center">Unsere Supporter</h1>
 <p class="text-center"><b>Bisher unterstützen uns:</b></p>
     <ul>
-      {%- for name in collections.supportersNew -%}
-      {% include 'supporters.njk' %} 
+      {%- for name in collections.supportersNew | sort -%}
+      {% include 'supportersNew.njk' %} 
       {% endfor %}
     </ul>
 

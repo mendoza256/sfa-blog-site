@@ -1,4 +1,4 @@
 {
-  "layout": "supporters.njk",
+  "layout": "supportersNew.njk",
   "tags": "supporters"
 }
