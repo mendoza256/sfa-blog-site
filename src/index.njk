@@ -33,9 +33,9 @@ layout: 'base.njk'
 <section class="supporter">
   <div class="container flow">
     
-      {%- for supporters in collections.supporters -%}
+      {# {%- for suppporters in collections.supporters -%}
       {% include 'supporters.njk' %} 
-      {%- endfor -%} 
+      {%- endfor %}  #}
 
   </div>
 </section>
@@ -53,7 +53,7 @@ layout: 'base.njk'
 
     <ul role="list" class="articles__list flow">
 
-      {%- for post in collections.featured | reverse -%}
+      {%- for post in collections.post | reverse -%}
         {% include 'article-snippet.njk' %}
       {%- endfor -%}
 

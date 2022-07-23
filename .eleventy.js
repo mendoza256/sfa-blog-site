@@ -1,13 +1,13 @@
 const { DateTime } = require("luxon");
+const util = require("util");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/style.css");
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/admin");
 
-  eleventyConfig.addFilter("debugger", (...args) => {
-    console.log(...args);
-    debugger;
+  eleventyConfig.addFilter("console", function (value) {
+    return util.inspect(value);
   });
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
