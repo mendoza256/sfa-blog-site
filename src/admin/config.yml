@@ -32,6 +32,7 @@ collections:
     name: "supportersNew"
     widget: "list"
     folder: "src/supportersNew"
+    create: true
     allow_add: true
     label_singular: "add"
     fields:
