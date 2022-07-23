@@ -35,4 +35,4 @@ collections:
     allow_add: true
     label_singular: "add"
     fields:
-      - { label: "Full Name", name: "fullName", widget: "string" }
+      - { label: "Full Name", name: "fullName", widget: "string", allow_add: true, label_singular: "add" }
