@@ -1,3 +1,5 @@
-<h1 class="text-center">{{ title }}</h1>
-<p class="text-center"><b>{{ description }}</b></p>
-<div class="supporters-list">denen hier: </div>
+
+
+<h1 class="text-center">{{ supporters.data.title }}</h1>
+<p class="text-center"><b>{{ supporters.data.description }}</b></p>
+<div class="supporters-list">denen hier: {{ supporters.data.content | safe }} </div>
