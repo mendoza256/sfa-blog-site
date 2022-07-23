@@ -33,10 +33,14 @@ layout: 'base.njk'
 
 <section class="supporter">
   <div class="container flow">
-    
-      {%- for supporters in collections.supporters -%}
+
+      <h1 class="text-center">Unsere Supporter</h1>
+<p class="text-center"><b>Bisher unterstützen uns:</b></p>
+    <ul>
+      {%- for name in collections.supportersNew -%}
       {% include 'supporters.njk' %} 
       {% endfor %}
+    </ul>
 
   </div>
 </section>
