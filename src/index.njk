@@ -36,75 +36,12 @@ layout: 'base.njk'
 
     <h1 class="text-center section-title">Unsere Supporter</h1> 
     <h3 class="text-center"><b>Bisher unterstützen uns</b></h3>
-    <h1 class="text-center"><span class="counter-count">65</span> Personen</h1>
-    <ul class="supporters-wrapper">
-      <li>Adrian Lommel</li>
-      <li>Alexander Bönisch</li>
-      <li>Alexander Pfeffer</li>
-      <li>Alina Vogel</li>
-      <li>Andreas Schäfer</li>
-      <li>Ben Bredenbröcker</li>
-      <li>Bernhard Huber</li>
-      <li>Cansu Tokmak</li>
-      <li>Carolin Obermeier</li>
-      <li>Carsten Schmitt</li>
-      <li>Catrin Schiebel</li>
-      <li>Christian Hupp</li>
-      <li>Christoph Schiebel</li>
-      <li>Dinah Oefelein</li>
-      <li>Eva Anton</li>
-      <li>Felicitas Haseidl</li>
-      <li>Franziska Wagner</li>
-      <li>Frederic Kleiber</li>
-      <li>Helena Cremer</li>
-      <li>Helge Specht</li>
-      <li>Janna Ritter</li>
-      <li>Julian Hippacher</li>
-      <li>Julius Fecher</li>
-      <li>Lea Höfling</li>
-      <li>Lena Archner</li>
-      <li>Lennart Schultze-Mosgau</li>
-      <li>Lenya Schmitt</li>
-      <li>Leon Deibert</li>
-      <li>Luis Walter</li>
-      <li>Lukas Behringer</li>
-      <li>Lukas Kirchner</li>
-      <li>Lukas Müller</li>
-      <li>Manuel Bettinger</li>
-      <li>Manuela Kunkel</li>
-      <li>Marco Schiebel</li>
-      <li>Martin Kühnberger</li>
-      <li>Martin Steigert</li>
-      <li>Maximilian Ullrich</li>
-      <li>Melina Maukner</li>
-      <li>Micha Centmayer</li>
-      <li>Mira Pasemann</li>
-      <li>Monika Stabel</li>
-      <li>Moritz Benninger-Kruck</li>
-      <li>Nico Segol</li>
-      <li>Niklaus Tobias</li>
-      <li>Pascal Reith</li>
-      <li>Paul Stedele</li>
-      <li>Paul Wagner</li>
-      <li>Philip Schuster</li>
-      <li>Philip Schmitt</li>
-      <li>Raphael Niedt-Ginntauer</li>
-      <li>Reinhilde Graber</li>
-      <li>Sarah Reinhardt</li>
-      <li>Sebastian Hanf</li>
-      <li>Sebastian Seifert</li>
-      <li>Selina Bohnenberger</li>
-      <li>Sheila Brosig</li>
-      <li>Simona Rahneva</li>
-      <li>Sylvia Bettinger</li>
-      <li>Tilman Horsinka</li>
-      <li>Tobias Bönisch</li>
-      <li>Tobias Roluch</li>
-      <li>Tom Krieg</li>
-      <li>Valentina Haspert</li>
-      <li>Victoria Stewart</li>
-      <li>Viola Scheibl</li>
+    <h1 class="text-center"><span id="counter-count" class="counter-count"></span> Personen</h1>
+    <ul id="supporters-list" class="supporters-wrapper hidden">
     </ul>
+    <div class="button-wrapper flex-group ">
+      <button onClick=showAndHideNames() id="showAndHideButton" class="btn btn--neutral btn-center">Alle anzeigen</button>
+    </div>
 
   </div>
 </section>

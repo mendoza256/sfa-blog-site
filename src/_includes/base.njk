@@ -21,6 +21,7 @@
 
     </div>
 
+    <script src="../js/bundle.js"></script>
     <script>
     if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
@@ -31,28 +32,25 @@
         }
         });
     }
-
-    // about counter
-    $(".counter-count").each(function () {
-    $(this)
-        .prop("Counter", 0)
-        .animate(
-        {
-            Counter: $(this).text()
-        },
-        {
-            //if you want to change counter speed then change duration
-            duration: 1500,
-            easing: "swing",
-            step: function (now) {
-            $(this).text(Math.ceil(now));
-            }
-        }
-        );
-    });
-
-
     </script>
+    <script>
+        let namesHidden = true;
+        const supportersList = document.getElementById("supporters-list");
+        const showAndHideButton = document.getElementById("showAndHideButton");
 
+        function showAndHideNames() {
+            if (namesHidden) {
+                supportersList.classList.remove("hidden");
+                showAndHideButton.innerHTML = "Weniger anzeigen";
+            } else {
+                supportersList.classList.add("hidden");
+                showAndHideButton.innerHTML = "Alle anzeigen";
+
+            }
+
+            namesHidden = !namesHidden;
+            console.log(namesHidden);
+        }
+    </script>
 </body>
 </html>
