@@ -44,8 +44,8 @@
                 showAndHideButton.innerHTML = "Weniger anzeigen";
             } else {
                 supportersList.classList.add("hidden");
+                document.getElementById("supporter-section").scrollIntoView({behavior: "smooth"});
                 showAndHideButton.innerHTML = "Alle anzeigen";
-
             }
 
             namesHidden = !namesHidden;
